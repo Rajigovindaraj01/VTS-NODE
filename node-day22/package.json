@@ -1,0 +1,22 @@
+{
+  "name": "day22",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+  "dev": "cross-env NODE_ENV=development DEBUG=true node server.js",
+  "prod": "cross-env NODE_ENV=production DEBUG=false PORT=8000 node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
